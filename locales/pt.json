@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "discover": "Descobrir",
+    "explorer": "Explorer",
+    "feed": "Feed",
+    "pools": "Pools",
+    "chat": "Chat",
+    "post": "Postar",
+    "login": "Login",
+    "logout": "Sair",
+    "profile": "Meu Perfil",
+    "dashboard": "Dashboard",
+    "hiddenUsers": "Usuários Ocultos"
+  },
+  "login": {
+    "title": "Login Hive",
+    "noKeychain": "A extensão Hive Keychain não foi detectada. Por favor, instale-a para fazer login.",
+    "downloadKeychain": "Download Keychain",
+    "username": "Usuário Hive",
+    "checking": "Verificando...",
+    "submit": "Entrar com Keychain",
+    "error": "Falha no login. Verifique o Keychain."
+  },
+  "footer": {
+    "text": "Desenvolvido para a comunidade Hive. Dados fornecidos por Hive-Engine."
+  },
+  "explorer": {
+    "title": "Community",
+    "subtitle": "Desenvolvimento e Tecnologia",
+    "all": "Tudo",
+    "categories": "Categorias",
+    "search": "Buscar categoria...",
+    "favorites": "Favoritos",
+    "allCategories": "Todas Categorias",
+    "notFound": "Nenhuma categoria encontrada",
+    "new": "Novos",
+    "trending": "Em Alta",
+    "hot": "Populares",
+    "emptyState": "Nenhum conteúdo encontrado",
+    "emptyStateText": "Ainda não há postagens aqui. Seja o primeiro a criar um conteúdo incrível",
+    "createPost": "Criar Postagem",
+    "loadMore": "Carregar Mais",
+    "loading": "Carregando..."
+  },
+  "post": {
+    "back": "Voltar",
+    "comments": "Comentários",
+    "reply": "Responder",
+    "voted": "Você já votou",
+    "vote100": "Votar 100%"
+  }
+}

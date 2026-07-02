@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hive Community Explorer</title>
+    <!-- Added typography plugin -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              hive: '#E31337',
+              cent: 'rgb(var(--color-cent) / <alpha-value>)',
+              dark: 'rgb(var(--color-dark) / <alpha-value>)',
+              card: 'rgb(var(--color-card) / <alpha-value>)',
+              white: 'rgb(var(--color-white) / <alpha-value>)',
+              slate: {
+                50: 'rgb(var(--color-slate-50) / <alpha-value>)',
+                100: 'rgb(var(--color-slate-100) / <alpha-value>)',
+                200: 'rgb(var(--color-slate-200) / <alpha-value>)',
+                300: 'rgb(var(--color-slate-300) / <alpha-value>)',
+                400: 'rgb(var(--color-slate-400) / <alpha-value>)',
+                500: 'rgb(var(--color-slate-500) / <alpha-value>)',
+                600: 'rgb(var(--color-slate-600) / <alpha-value>)',
+                700: 'rgb(var(--color-slate-700) / <alpha-value>)',
+                800: 'rgb(var(--color-slate-800) / <alpha-value>)',
+                900: 'rgb(var(--color-slate-900) / <alpha-value>)',
+                950: 'rgb(var(--color-slate-950) / <alpha-value>)'
+              }
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' }
+              },
+              'slide-in-up': {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' }
+              }
+            },
+            animation: {
+              'fade-in': 'fade-in 0.3s ease-out',
+              'slide-in-up': 'slide-in-up 0.4s ease-out'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --color-white: 255 255 255;
+        --color-dark: 15 23 42;
+        --color-card: 30 41 59;
+        --color-cent: 74 222 128;
+        --color-slate-50:  248 250 252;
+        --color-slate-100: 241 245 249;
+        --color-slate-200: 226 232 240;
+        --color-slate-300: 203 213 225;
+        --color-slate-400: 148 163 184;
+        --color-slate-500: 100 116 139;
+        --color-slate-600: 71 85 105;
+        --color-slate-700: 51 65 85;
+        --color-slate-800: 30 41 59;
+        --color-slate-900: 15 23 42;
+        --color-slate-950: 2 6 23;
+      }
+
+      [data-theme='light'] {
+        --color-white: 15 23 42;
+        --color-dark: 248 250 252;
+        --color-card: 255 255 255;
+        --color-cent: 22 163 74;
+        --color-slate-50:  15 23 42;
+        --color-slate-100: 30 41 59;
+        --color-slate-200: 51 65 85;
+        --color-slate-300: 71 85 105;
+        --color-slate-400: 100 116 139;
+        --color-slate-500: 148 163 184;
+        --color-slate-600: 203 213 225;
+        --color-slate-700: 226 232 240;
+        --color-slate-800: 241 245 249;
+        --color-slate-900: 255 255 255;
+        --color-slate-950: 248 250 252;
+      }
+
+      body {
+        background-color: rgb(var(--color-dark));
+        color: rgb(var(--color-slate-200));
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgb(var(--color-card)); 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(var(--color-slate-600)); 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(var(--color-slate-500)); 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "dompurify": "https://esm.sh/dompurify@3.0.8",
+    "marked": "https://esm.sh/marked@12.0.0",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

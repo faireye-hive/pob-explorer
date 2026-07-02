@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "discover": "Discover",
+    "explorer": "Explorer",
+    "feed": "Feed",
+    "pools": "Pools",
+    "chat": "Chat",
+    "post": "Post",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "dashboard": "Dashboard",
+    "hiddenUsers": "Hidden Users"
+  },
+  "login": {
+    "title": "Hive Login",
+    "noKeychain": "Hive Keychain extension not detected. Please install it to login.",
+    "downloadKeychain": "Download Keychain",
+    "username": "Hive Username",
+    "checking": "Checking...",
+    "submit": "Login with Keychain",
+    "error": "Login failed. Check Keychain."
+  },
+  "footer": {
+    "text": "Built for the Hive community. Data provided by Hive-Engine."
+  },
+  "explorer": {
+    "title": "Community",
+    "subtitle": "Development and Technology",
+    "all": "All",
+    "categories": "Categories",
+    "search": "Search category...",
+    "favorites": "Favorites",
+    "allCategories": "All Categories",
+    "notFound": "No categories found",
+    "new": "New",
+    "trending": "Trending",
+    "hot": "Hot",
+    "emptyState": "No content found",
+    "emptyStateText": "There are no posts here yet. Be the first to create amazing content",
+    "createPost": "Create Post",
+    "loadMore": "Load More",
+    "loading": "Loading..."
+  },
+  "post": {
+    "back": "Back",
+    "comments": "Comments",
+    "reply": "Reply",
+    "voted": "You have already voted",
+    "vote100": "Vote 100%"
+  }
+}

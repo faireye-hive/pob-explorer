@@ -1,0 +1,8 @@
+{
+  "name": "Hive Engine Community Explorer",
+  "description": "Um painel avançado para monitoramento e análise de comunidades e tokens da Hive-Engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
